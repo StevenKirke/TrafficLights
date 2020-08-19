@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		32EB994924ED182400FC2D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB994824ED182400FC2D61 /* AppDelegate.swift */; };
 		32EB994B24ED182400FC2D61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB994A24ED182400FC2D61 /* SceneDelegate.swift */; };
-		32EB994D24ED182400FC2D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB994C24ED182400FC2D61 /* ViewController.swift */; };
 		32EB995024ED182400FC2D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB994E24ED182400FC2D61 /* Main.storyboard */; };
 		32EB995224ED182600FC2D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EB995124ED182600FC2D61 /* Assets.xcassets */; };
 		32EB995524ED182600FC2D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB995324ED182600FC2D61 /* LaunchScreen.storyboard */; };
+		32EB995D24ED187100FC2D61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB995C24ED187100FC2D61 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32EB994524ED182300FC2D61 /* TrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EB994824ED182400FC2D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EB994A24ED182400FC2D61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32EB994C24ED182400FC2D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32EB994F24ED182400FC2D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32EB995124ED182600FC2D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EB995424ED182600FC2D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EB995624ED182600FC2D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EB995C24ED187100FC2D61 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				32EB994824ED182400FC2D61 /* AppDelegate.swift */,
 				32EB994A24ED182400FC2D61 /* SceneDelegate.swift */,
-				32EB994C24ED182400FC2D61 /* ViewController.swift */,
+				32EB995C24ED187100FC2D61 /* MainViewController.swift */,
 				32EB994E24ED182400FC2D61 /* Main.storyboard */,
 				32EB995124ED182600FC2D61 /* Assets.xcassets */,
 				32EB995324ED182600FC2D61 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EB994D24ED182400FC2D61 /* ViewController.swift in Sources */,
+				32EB995D24ED187100FC2D61 /* MainViewController.swift in Sources */,
 				32EB994924ED182400FC2D61 /* AppDelegate.swift in Sources */,
 				32EB994B24ED182400FC2D61 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.TrafficLights;
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.TrafficLightsHW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.TrafficLights;
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.TrafficLightsHW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
